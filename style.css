@@ -1,0 +1,88 @@
+* {
+    margin:0px;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media   (min-width: 600px) and (max-width: 1199px) {
+    header {
+        background-color: rgb(233, 222, 222);
+        height: 100px;
+        width: 100%;
+        padding: 9px;
+        position: fixed;
+        
+    }
+    #brandname {
+        font-size: 60px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family:  'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    
+
+    #aboutusheading {
+        
+        
+        text-align: center;
+    }
+
+    main {
+        height: auto;
+        font-size: 30px;
+        width: 100%;
+        padding: 25px;
+        margin-top: 100px;
+        border-radius: 4px;
+        background-color: rgb(215, 224, 230);
+    }
+
+    #aboutus {
+       text-align: center;
+    }
+
+    
+
+    #appsection {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(202, 207, 223);
+        height: 250px;
+        width: 100%;
+        font-size: 30px;
+        padding: 40px;
+        text-align: center;
+    }
+
+    #getappongps {
+        font-size: 30px;
+        padding: 18px;
+        background-color: rgb(161, 187, 161);
+        margin-bottom: 24px;
+        height: 70px;
+        width: auto;
+        border-radius: 8px;
+    }
+
+    #getapponaas {
+        font-size: 30px;
+        padding: 8px;
+        height: 70px;
+        width: auto;
+        border-radius: 18px;
+        background-color: rgb(199, 223, 238);
+    }
+
+    footer {
+        margin-top: 500px;
+        height: 200px;
+        width: 100%;
+        background-color: rgb(200, 211, 228);
+        padding: 28px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    }  
+/*large devices only
+    @media  (min-width: 1200px) {
+        
+    }
+*/
