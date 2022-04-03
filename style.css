@@ -4,7 +4,6 @@
 
 a {
     text-decoration: none;
-
 }
 
 a:hover {
@@ -13,7 +12,10 @@ a:hover {
 
 a:visited {
     text-decoration: none;
-    
+    }
+
+body {
+    width: auto;
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media   (min-width: 600px) and (max-width: 1199px) {
@@ -43,7 +45,7 @@ a:visited {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         height: auto;
         font-size: 30px;
-        width: 100%;
+        width: auto;
         padding: 25px;
         margin-top: 100px;
         border-radius: 4px;
@@ -60,7 +62,7 @@ a:visited {
         font-family: 'Courier New', Courier, monospace;
         background-color: rgb(187, 215, 233);
         height: 250px;
-        width: 100%;
+        width: auto;
         font-size: 30px;
         padding: 40px;
         text-align: center;
@@ -81,7 +83,7 @@ a:visited {
         padding: 10px;  
         height: 70px;
         width: auto;
-        border-radius: 18px;
+        border-radius: 8px;
         background-color: rgb(233, 222, 222);
     }
 
@@ -113,15 +115,113 @@ a:visited {
         margin-top: 500px;
         font-size: 20px;
         height: auto;
-        width: 100%;
+        width: auto;
         background-color: rgb(187, 215, 233);
         padding: 28px;
         font-family: monospace;
         color: darkblue;
     }
-    }  
-/*large devices only
-    @media  (min-width: 1200px) {
-        
+}  
+
+/*Large devices only (laptops and deskops) */
+@media (min-width: 1200px) {
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(233, 222, 222);
+        position: fixed;
     }
-*/
+
+    #brandname {
+        font-size: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family:  'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    #aboutusheading {
+        text-align: center;
+    }
+
+    main {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: auto;
+        font-size: 15px;
+        width: auto;
+        padding: 40px;
+        margin-top: 100px;
+        border-radius: 2px;
+        background-color: rgb(187, 215, 233);
+    }
+
+    #aboutus {
+       text-align: center;
+    }
+
+    
+
+    #appsection {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(187, 215, 233);
+        height: auto;
+        width:auto;
+        font-size: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    #getappongps {
+        font-size: 15px;
+        padding: 10px;
+        background-color: rgb(233, 222, 222);
+        margin-bottom: 24px;
+        height: auto;
+        width: auto;
+        border-radius: 8px;
+    }
+
+    #getapponaas {
+        font-size: 15px;
+        padding: 8px;  
+        height: auto;
+        width: auto;
+        border-radius: 8px;
+        background-color: rgb(233, 222, 222);
+    }
+
+    #restauranttoptions {
+        background-color:rgb(187, 215, 233);
+        padding: 12px;
+        height: auto;
+        width: auto;
+        font-size: 20px;
+    }
+
+    ul {
+        margin: 10px;
+    }
+
+    li {
+        margin: 10px;
+    }
+
+    #das{
+        background-color:rgb(187, 215, 233);
+        padding: 12px;
+        height: auto;
+        width: auto;
+        font-size: 15px;
+    }
+
+    footer {
+        margin-top: 100px;
+        font-size: 9px;
+        height: auto;
+        width: auto;
+        background-color: rgb(209, 220, 228);
+        padding: 12px;
+        font-family: 'Courier New', Courier, monospace;
+        color: darkblue;
+    }
+}
