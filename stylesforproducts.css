@@ -23,6 +23,8 @@
             text-align: center;
         }
 
+        
+
         #productlist {
             background-color: rgb(233, 222, 222);
             height: auto;
@@ -39,6 +41,13 @@
         li {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 40px;
+        }
+
+        img {
+            height: 650px;
+            width: 750px;
+            border-radius: 20px;
+            border: 6px solid black;
         }
 
     }
