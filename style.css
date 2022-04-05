@@ -111,15 +111,31 @@ body {
         font-size: 45px;
     }
 
+    #grid {
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(187, 215, 233);
+        margin: 10px;
+      }
+      
+    #grid-item {
+        text-align: center;
+        padding: 20px;
+        font-size: 45px;
+        
+      }
+
     footer {
         margin-top: 500px;
-        font-size: 20px;
+        font-size: 13px;
         height: auto;
         width: auto;
         background-color: rgb(187, 215, 233);
         padding: 28px;
         font-family: monospace;
         color: darkblue;
+        display: grid;
     }
 }  
 
@@ -211,8 +227,23 @@ body {
         padding: 12px;
         height: auto;
         width: auto;
-        font-size: 15px;
+        font-size: 20px;
     }
+
+
+    #grid {
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(187, 215, 233);
+        margin: 12px;
+      }
+      
+    #grid-item {
+        text-align: center;
+        padding: 8px;
+        font-size: 20px;
+      }
 
     footer {
         margin-top: 100px;
