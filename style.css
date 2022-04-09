@@ -44,7 +44,7 @@ body {
     main {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         height: auto;
-        font-size: 30px;
+        font-size: 20px;
         width: auto;
         padding: 25px;
         margin-top: 100px;
@@ -63,13 +63,13 @@ body {
         background-color: rgb(187, 215, 233);
         height: 250px;
         width: auto;
-        font-size: 30px;
+        font-size: 25px;
         padding: 40px;
         text-align: center;
     }
 
     #getappongps {
-        font-size: 45px;
+        font-size: 40px;
         padding: 10px;
         background-color: rgb(233, 222, 222);
         margin-bottom: 24px;
@@ -79,7 +79,7 @@ body {
     }
 
     #getapponaas {
-        font-size: 45px;
+        font-size: 40px;
         padding: 10px;  
         height: 70px;
         width: auto;
@@ -92,7 +92,7 @@ body {
         padding: 20px;
         height: auto;
         width: auto;
-        font-size: 45px;
+        font-size: 30px;
     }
 
     ul {
@@ -108,7 +108,7 @@ body {
         padding: 20px;
         height: auto;
         width: auto;
-        font-size: 45px;
+        font-size: 30px;
     }
 
     #grid {
@@ -122,13 +122,13 @@ body {
     #grid-item {
         text-align: center;
         padding: 20px;
-        font-size: 45px;
+        font-size: 30px;
         
       }
 
     footer {
         margin-top: 500px;
-        font-size: 13px;
+        font-size: 10px;
         height: auto;
         width: auto;
         background-color: rgb(187, 215, 233);
