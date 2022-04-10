@@ -4,7 +4,6 @@
 
 a {
     text-decoration: none;
-
 }
 
 a:hover {
@@ -13,7 +12,10 @@ a:hover {
 
 a:visited {
     text-decoration: none;
-    
+    }
+
+body {
+    width: auto;
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media   (min-width: 600px) and (max-width: 1199px) {
@@ -23,6 +25,7 @@ a:visited {
         width: 100%;
         padding: 9px;
         position: fixed;
+        margin-bottom: 100px;
         }
 
     #brandname {
@@ -33,56 +36,28 @@ a:visited {
         font-weight: lighter;
     }
 
-    
-
-    #aboutusheading {
-        text-align: center;
-    }
-
-    
-    #aboutus {
-        margin-top: 150px;
+    main {
         height: auto;
         width: auto;
-        padding: 25px;
-        background-color: rgb(209, 220, 228);
-        font-family:Arial, Helvetica, sans-serif;
-    }
-
-    #foundersinfo {
-        height: auto;
-        width: auto;
-        margin-top: 150px;
-        background-color: rgb(209, 220, 228);
+        background-color: rgb(187, 215, 233);
+        margin-top: 200px;
+        font-size: 30px;
         padding: 20px;
-        font-family:Arial, Helvetica, sans-serif;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        word-spacing: auto;
     }
 
-    img {
-        height: 500px;
-        width: 350px;
-        border-radius: 40px;
-        margin-bottom: 50px;
+
+    li {
+        margin: 20px;
+        font-size: 60px;
     }
 
-    #cofo {
-        height: 500px;
-        width: 400px;
-        border-radius: 40px;
-        margin-bottom: 50px;
-    }
-
-    h1 {
-        font-weight: lighter;
-        font-family:serif;
-    }
-
-    
 }
 
-/* large devices only (laptops and desktops) */
-@media (min-width:1200px) {
 
+/*Large devices only (laptops and deskops) */
+@media (min-width: 1200px) {
     header {
         width: 100%;
         height: auto;
@@ -98,15 +73,24 @@ a:visited {
         font-weight: lighter;
     }
 
-    #aboutusheading {
-        text-align: center;
+
+    ul {
+        width: fit-content;
+    }
+    main {
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        margin-top: 60px;
+        font-size: 12px;
+        padding: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
-    #aboutus {
-        height: auto;
+
+    li {
+        margin: 20px;
+        font-size: 20px;
         width: auto;
     }
 }
-
-    
-
