@@ -17,6 +17,7 @@ a:visited {
 body {
     width: auto;
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media   (min-width: 600px) and (max-width: 1199px) {
     header {
@@ -36,17 +37,22 @@ body {
         font-weight: lighter;
     }
 
-    main {
-        height: auto;
-        width: auto;
-        background-color: rgb(187, 215, 233);
+    #packagedetails {
         margin-top: 200px;
-        font-size: 30px;
+        width: auto;
+        height: auto;
+        background-color: rgb(187, 215, 233);
         padding: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        word-spacing: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
 
     li {
         margin: 20px;
@@ -54,7 +60,6 @@ body {
     }
 
 }
-
 
 /*Large devices only (laptops and deskops) */
 @media (min-width: 1200px) {
@@ -73,28 +78,4 @@ body {
         font-weight: lighter;
     }
 
-    h1 {
-        font-size: 30px;
-    }
-
-
-    ul {
-        width: fit-content;
-    }
-    main {
-        height: auto;
-        width: auto;
-        background-color: rgb(187, 215, 233);
-        margin-top: 60px;
-        font-size: 12px;
-        padding: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-
-    li {
-        margin: 20px;
-        font-size: 20px;
-        width: auto;
-    }
 }

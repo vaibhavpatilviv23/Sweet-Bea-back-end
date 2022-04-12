@@ -68,12 +68,21 @@ body {
 
     ul {
         margin: 15px;
-        
     }
 
     li {
         margin: 20px;
     }
+
+    #eventcategories {
+        background-color:rgb(187, 215, 233);
+        padding: 20px;
+        height: auto;
+        width: auto;
+        font-size: 30px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
 
     #popularlocls {
         height: auto;
@@ -88,6 +97,7 @@ body {
     h1 {
         font-size: 30px;
     }
+
     #das{
         background-color:rgb(187, 215, 233);
         padding: 20px;
