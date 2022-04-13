@@ -43,7 +43,7 @@ body {
     main {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         height: auto;
-        font-size: 20px;
+        font-size: 15px;
         width: auto;
         padding: 25px;
         margin-top: 130px;
@@ -62,7 +62,7 @@ body {
         padding: 20px;
         height: auto;
         width: auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
@@ -72,6 +72,7 @@ body {
 
     li {
         margin: 20px;
+        font-size: 15px;
     }
 
     #eventcategories {
@@ -79,7 +80,7 @@ body {
         padding: 20px;
         height: auto;
         width: auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
@@ -89,13 +90,17 @@ body {
         width: auto;
         background-color: rgb(187, 215, 233);
         padding: 20px;
-        font-size: 30px;
+        font-size: 20px;
         margin-top: 60px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 
     #das{
@@ -103,7 +108,7 @@ body {
         padding: 20px;
         height: auto;
         width: auto;
-        font-size: 30px;
+        font-size: 20px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-top: 60px;
     }
@@ -119,12 +124,12 @@ body {
     #grid-item {
         text-align: center;
         padding: 20px;
-        font-size: 30px;
+        font-size: 20px;
         }
 
     footer {
         margin-top: auto;
-        font-size: 8px;
+        font-size: 4px;
         height: auto;
         width: auto;
         background-color: rgb(187, 215, 233);
