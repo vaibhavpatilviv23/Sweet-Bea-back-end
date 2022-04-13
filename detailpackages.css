@@ -47,16 +47,20 @@ body {
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     h2 {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     li {
         margin: 20px;
-        font-size: 60px;
+        font-size: 45px;
+    }
+
+    h4 {
+        font-size: 45px;
     }
 
 }
@@ -77,5 +81,32 @@ body {
         font-family:  'Pacifico', cursive;
         font-weight: lighter;
     }
+
+    #packagedetails {
+        margin-top: 100px;
+        width: auto;
+        height: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        margin: 12px;
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
 
 }

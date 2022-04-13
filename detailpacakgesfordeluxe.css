@@ -26,6 +26,7 @@ body {
         width: 100%;
         padding: 9px;
         position: fixed;
+        margin-bottom: 100px;
         }
 
     #brandname {
@@ -36,37 +37,42 @@ body {
         font-weight: lighter;
     }
 
-    #packageinfo {
-        height: auto;
-        width: auto;
+    #packagedetails {
         margin-top: 200px;
-        padding: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: auto;
+        height: auto;
         background-color: rgb(187, 215, 233);
+        padding: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     h1 {
         font-size: 50px;
     }
 
-    ul {
-        margin: 15px;
+    h2 {
+        font-size: 45px;
     }
 
     li {
         margin: 20px;
-        font-size: 50px;
+        font-size: 45px;
+    }
+
+    h4 {
+        font-size: 45px;
     }
 
 }
 
-/* Large devices (laptops and desktops ) */
+/*Large devices only (laptops and deskops) 
 @media (min-width: 1200px) {
     header {
         width: 100%;
         height: auto;
         background-color: rgb(233, 222, 222);
         position: fixed;
+        
     }
 
     #brandname {
@@ -77,9 +83,21 @@ body {
         font-weight: lighter;
     }
 
-    ul {
-        width: fit-content;
-        margin: 15px;
+    #packagedetails {
+        
+        width: auto;
+        height: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 
     li {
@@ -87,16 +105,9 @@ body {
         font-size: 20px;
     }
 
-    #packageinfo {
-        margin-top: 60px;
-        height: auto;
-        width: auto;
-        padding: 12px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        background-color: rgb(187, 215, 233);
-    }
-
-    h1 {
+    h4 {
         font-size: 20px;
     }
+
 }
+**/
