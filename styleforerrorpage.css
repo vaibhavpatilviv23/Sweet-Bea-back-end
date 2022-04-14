@@ -17,7 +17,6 @@ a:visited {
 body {
     width: auto;
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media   (min-width: 600px) and (max-width: 1199px) {
     header {
@@ -26,7 +25,6 @@ body {
         width: 100%;
         padding: 9px;
         position: fixed;
-        margin-bottom: 100px;
         }
 
     #brandname {
@@ -37,42 +35,29 @@ body {
         font-weight: lighter;
     }
 
-    #packagedetails {
-        margin-top: 200px;
-        width: auto;
+    #errorcontaint {
+        font-family:Georgia, 'Times New Roman', Times, serif;
         height: auto;
-        background-color: rgb(187, 215, 233);
-        padding: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: auto;
+        padding: 30px;
+        margin-top: 500px;
+        border-radius: 4px;
+        background-color: rgb(227, 198, 198);
     }
 
     h1 {
-        font-size: 43px;
+        font-weight: lighter;
+        font-size: 36px;
     }
-
-    ul {
-        margin: 15px;
-    }
-
-    li {
-        margin: 20px;
-        font-size: 31px;
-    }
-
-    p {
-        font-size: 30px;
-    }
-
 }
 
-/*Large devices only (laptops and deskops) **/
+/*Large devices only (laptops and deskops) */
 @media (min-width: 1200px) {
     header {
         width: 100%;
         height: auto;
         background-color: rgb(233, 222, 222);
         position: fixed;
-        
     }
 
     #brandname {
@@ -83,34 +68,20 @@ body {
         font-weight: lighter;
     }
 
-    #packagedetails {
-        margin-top: 60px;
-        width: auto;
+    #errorcontaint {
+        font-family:Georgia, 'Times New Roman', Times, serif;
         height: auto;
-        background-color: rgb(187, 215, 233);
-        padding: 12px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: auto;
+        padding: 30px;
+        margin-top: 300px;
+        border-radius: 4px;
+        text-align: center;
+        background-color: rgb(227, 198, 198);
     }
 
     h1 {
+        font-weight: lighter;
         font-size: 20px;
     }
 
-    h2 {
-        font-size: 20px;
-    }
-
-    li {
-        margin: 12px;
-        font-size: 20px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
-
-    ul {
-        margin:10px;
-        width: fit-content;
-    }
 }
