@@ -65,7 +65,7 @@ body {
 
 }
 
-/*Large devices only (laptops and deskops) 
+/*Large devices only (laptops and deskops) **/
 @media (min-width: 1200px) {
     header {
         width: 100%;
@@ -84,7 +84,7 @@ body {
     }
 
     #packagedetails {
-        
+        margin-top: 60px;
         width: auto;
         height: auto;
         background-color: rgb(187, 215, 233);
@@ -110,4 +110,3 @@ body {
     }
 
 }
-**/

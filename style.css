@@ -142,7 +142,6 @@ body {
 
 /*Large devices only (laptops and deskops) */
 @media (min-width: 1200px) {
-    
     header {
         width: 100%;
         height: auto;
@@ -165,7 +164,7 @@ body {
     main {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         height: auto;
-        font-size: 15px;
+        font-size: 18px;
         width: auto;
         padding: 40px;
         margin-top: 55px;
