@@ -49,6 +49,12 @@ body {
         font-weight: lighter;
         font-size: 36px;
     }
+
+    .heading {
+        font-family: 'Courgette';
+        color: red;
+        font-size: 80px;
+    }
 }
 
 /*Large devices only (laptops and deskops) */
@@ -73,7 +79,7 @@ body {
         height: auto;
         width: auto;
         padding: 30px;
-        margin-top: 300px;
+        margin-top: 250px;
         border-radius: 4px;
         text-align: center;
         background-color: rgb(227, 198, 198);
@@ -82,6 +88,12 @@ body {
     h1 {
         font-weight: lighter;
         font-size: 20px;
+    }
+
+    .heading {
+        font-family: 'Courgette';
+        color: red;
+        font-size: 30px;
     }
 
 }
