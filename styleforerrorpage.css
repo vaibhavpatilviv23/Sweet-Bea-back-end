@@ -51,10 +51,16 @@ body {
     }
 
     .heading {
-        font-family: 'Courgette';
+        font-family: 'IBM Plex Sans Condensed', sans-serif; 
         color: red;
-        font-size: 80px;
+        font-size: 60px;
+        border: 10px solid black;
+        background-color: lightyellow;
+        padding: 20px;
+        border-radius: 5%;
     }
+
+    
 }
 
 /*Large devices only (laptops and deskops) */
@@ -83,7 +89,7 @@ body {
         border-radius: 4px;
         text-align: center;
         background-color: rgb(227, 198, 198);
-    }
+    }   
 
     h1 {
         font-weight: lighter;
@@ -91,9 +97,15 @@ body {
     }
 
     .heading {
-        font-family: 'Courgette';
+        font-family: 'IBM Plex Sans Condensed', sans-serif; 
         color: red;
-        font-size: 30px;
+        font-size: 20px;
+        border: 5px solid black;
+        background-color: lightyellow;
+        padding: 10px;
+        border-radius: 2%;
+    
+        
     }
 
 }
