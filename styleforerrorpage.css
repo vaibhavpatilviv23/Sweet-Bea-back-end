@@ -1,0 +1,111 @@
+* {
+    margin:0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    }
+
+body {
+    width: auto;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media   (min-width: 600px) and (max-width: 1199px) {
+    header {
+        background-color: rgb(233, 222, 222);
+        height: 100px;
+        width: 100%;
+        padding: 9px;
+        position: fixed;
+        }
+
+    #brandname {
+        font-size: 60px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family:  'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    #errorcontaint {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        height: auto;
+        width: auto;
+        padding: 30px;
+        margin-top: 500px;
+        border-radius: 4px;
+        background-color: rgb(227, 198, 198);
+    }
+
+    h1 {
+        font-weight: lighter;
+        font-size: 36px;
+    }
+
+    .heading {
+        font-family: 'IBM Plex Sans Condensed', sans-serif; 
+        color: red;
+        font-size: 60px;
+        border: 10px solid black;
+        background-color: lightyellow;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+    
+}
+
+/*Large devices only (laptops and deskops) */
+@media (min-width: 1200px) {
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(233, 222, 222);
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family:  'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    #errorcontaint {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        height: auto;
+        width: auto;
+        padding: 30px;
+        margin-top: 250px;
+        border-radius: 4px;
+        text-align: center;
+        background-color: rgb(227, 198, 198);
+    }   
+
+    h1 {
+        font-weight: lighter;
+        font-size: 20px;
+    }
+
+    .heading {
+        font-family: 'IBM Plex Sans Condensed', sans-serif; 
+        color: red;
+        font-size: 20px;
+        border: 5px solid black;
+        background-color: lightyellow;
+        padding: 10px;
+        border-radius: 2%;
+    
+        
+    }
+
+}

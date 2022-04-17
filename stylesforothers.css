@@ -39,26 +39,46 @@ a:visited {
         text-align: center;
     }
 
-    #ccs {
-        margin-top: 600px;
+    
+    #aboutus {
+        margin-top: 150px;
         height: auto;
         width: auto;
-        background-color: lightcyan;
-        text-align: center;
-        font-size: 100px;
-        font-family: 'Niconne', cursive;
-        animation-name: ccsanim;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
-        color: rgb(27, 123, 206);
+        padding: 25px;
+        background-color: rgb(187, 215, 233);
+        font-family:Arial, Helvetica, sans-serif;
     }
 
-    @keyframes ccsanim {
-        0%   {background-color: rgb(216, 188, 188);}
-        25%  {background-color: rgb(173, 222, 187);}
-        50%  {background-color: rgb(179, 179, 219);}
-        100% {background-color: rgb(224, 182, 205);}
+    #foundersinfo {
+        height: auto;
+        width: auto;
+        margin-top: 150px;
+        background-color: rgb(187, 215, 233);
+        padding: 35px 20px 35px 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom: 150px;
     }
+
+    img {
+        height: 500px;
+        width: 350px;
+        border-radius: 40px;
+        margin-bottom: 50px;
+    }
+
+    #cofo {
+        height: 500px;
+        width: 400px;
+        border-radius: 40px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-weight: lighter;
+        font-family:serif;
+    }
+
+    
 }
 
 /* large devices only (laptops and desktops) */
@@ -83,25 +103,49 @@ a:visited {
         text-align: center;
     }
 
-    #ccs {
-        font-size: 30px;
-        margin-top: 200px;
+    #aboutus {
+        margin-top: 100px;
         height: auto;
         width: auto;
-        background-color: lightcyan;
-        font-family: 'Niconne', cursive;
-        animation-name: ccsanim;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
-        color: rgb(27, 123, 206);
+        padding: 25px;
+        background-color: rgb(187, 215, 233);
+        font-family:Arial, Helvetica, sans-serif;
     }
 
-    @keyframes ccsanim {
-        0%   {background-color: rgb(216, 188, 188);}
-        25%  {background-color: rgb(173, 222, 187);}
-        50%  {background-color: rgb(179, 179, 219);}
-        100% {background-color: rgb(224, 182, 205);}
+    h1 {
+        font-size: 20px;
     }
+
+    #foundersinfo {
+        height: auto;
+        width: auto;
+        margin-top: 100px;
+        background-color: rgb(187, 215, 233);
+        padding: 40px 20px 40px 20px;
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom: 100px;
+    }
+
+    img {
+        height: 300px;
+        width: 220px;
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+
+    #cofo {
+        height:300px;
+        width: 240px;
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-weight: lighter;
+        font-family:serif;
+    }
+
 }
 
     

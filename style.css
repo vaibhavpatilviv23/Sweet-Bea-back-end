@@ -35,7 +35,6 @@ body {
         font-weight: lighter;
     }
 
-    
 
     #aboutusheading {
         text-align: center;
@@ -44,10 +43,10 @@ body {
     main {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         height: auto;
-        font-size: 30px;
+        font-size: 15px;
         width: auto;
         padding: 25px;
-        margin-top: 100px;
+        margin-top: 130px;
         border-radius: 4px;
         background-color: rgb(187, 215, 233);
     }
@@ -56,43 +55,15 @@ body {
        text-align: center;
     }
 
+
     
-
-    #appsection {
-        font-family: 'Courier New', Courier, monospace;
-        background-color: rgb(187, 215, 233);
-        height: 250px;
-        width: auto;
-        font-size: 30px;
-        padding: 40px;
-        text-align: center;
-    }
-
-    #getappongps {
-        font-size: 45px;
-        padding: 10px;
-        background-color: rgb(233, 222, 222);
-        margin-bottom: 24px;
-        height: 70px;
-        width: auto;
-        border-radius: 8px;
-    }
-
-    #getapponaas {
-        font-size: 45px;
-        padding: 10px;  
-        height: 70px;
-        width: auto;
-        border-radius: 8px;
-        background-color: rgb(233, 222, 222);
-    }
-
     #restauranttoptions {
         background-color:rgb(187, 215, 233);
         padding: 20px;
         height: auto;
         width: auto;
-        font-size: 45px;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     ul {
@@ -101,6 +72,35 @@ body {
 
     li {
         margin: 20px;
+        font-size: 15px;
+    }
+
+    #eventcategories {
+        background-color:rgb(187, 215, 233);
+        padding: 20px;
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+    #popularlocls {
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 20px;
+        font-size: 20px;
+        margin-top: 60px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 
     #das{
@@ -108,7 +108,18 @@ body {
         padding: 20px;
         height: auto;
         width: auto;
-        font-size: 45px;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 60px;
+    }
+
+    .h1li {
+        background-color:rgb(187, 215, 233);
+        padding: 20px;
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     #grid {
@@ -122,13 +133,12 @@ body {
     #grid-item {
         text-align: center;
         padding: 20px;
-        font-size: 45px;
-        
-      }
+        font-size: 20px;
+        }
 
     footer {
-        margin-top: 500px;
-        font-size: 13px;
+        margin-top: auto;
+        font-size: 4px;
         height: auto;
         width: auto;
         background-color: rgb(187, 215, 233);
@@ -163,10 +173,10 @@ body {
     main {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         height: auto;
-        font-size: 15px;
+        font-size: 18px;
         width: auto;
         padding: 40px;
-        margin-top: 100px;
+        margin-top: 55px;
         border-radius: 2px;
         background-color: rgb(187, 215, 233);
     }
@@ -175,51 +185,56 @@ body {
        text-align: center;
     }
 
-    
-
-    #appsection {
-        font-family: 'Courier New', Courier, monospace;
-        background-color: rgb(187, 215, 233);
-        height: auto;
-        width:auto;
-        font-size: 15px;
-        padding: 20px;
-        text-align: center;
-    }
-    
-    #getappongps {
-        font-size: 15px;
-        padding: 10px;
-        background-color: rgb(233, 222, 222);
-        margin-bottom: 24px;
+    #eventcategories {
+        background-color:rgb(187, 215, 233);
+        padding: 12px;
         height: auto;
         width: auto;
-        border-radius: 8px;
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
-    #getapponaas {
-        font-size: 15px;
-        padding: 8px;  
+    .h1li {
+        background-color:rgb(187, 215, 233);
+        padding: 12px;
         height: auto;
         width: auto;
-        border-radius: 8px;
-        background-color: rgb(233, 222, 222);
+        font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
+    
     #restauranttoptions {
         background-color:rgb(187, 215, 233);
         padding: 12px;
         height: auto;
         width: auto;
         font-size: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     ul {
         margin: 10px;
+        width: fit-content;
     }
 
     li {
         margin: 10px;
+        width: fit-content;
+    }
+
+    #popularlocls {
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 12px;
+        font-size: 20px;
+        margin-top: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+    h1 {
+        font-size: 20px;
     }
 
     #das{
@@ -228,6 +243,8 @@ body {
         height: auto;
         width: auto;
         font-size: 20px;
+        margin-top: 30px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 
@@ -246,7 +263,7 @@ body {
       }
 
     footer {
-        margin-top: 100px;
+        margin-top: auto;
         font-size: 9px;
         height: auto;
         width: auto;
@@ -255,4 +272,6 @@ body {
         font-family: 'Courier New', Courier, monospace;
         color: darkblue;
     }
+
+    
 }
