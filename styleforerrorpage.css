@@ -1,5 +1,5 @@
 * {
-    margin:0px;
+    margin: 0px;
 }
 
 a {
@@ -12,31 +12,32 @@ a:hover {
 
 a:visited {
     text-decoration: none;
-    }
+}
 
 body {
     width: auto;
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media   (min-width: 600px) and (max-width: 1199px) {
+@media (min-width: 600px) and (max-width: 1199px) {
     header {
         background-color: rgb(233, 222, 222);
         height: 100px;
         width: 100%;
         padding: 9px;
         position: fixed;
-        }
+    }
 
     #brandname {
         font-size: 60px;
         color: rgba(69, 69, 226, 0.959);
         text-align: center;
-        font-family:  'Pacifico', cursive;
+        font-family: 'Pacifico', cursive;
         font-weight: lighter;
     }
 
     #errorcontaint {
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         height: auto;
         width: auto;
         padding: 30px;
@@ -51,7 +52,7 @@ body {
     }
 
     .heading {
-        font-family: 'IBM Plex Sans Condensed', sans-serif; 
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
         color: red;
         font-size: 60px;
         border: 10px solid black;
@@ -60,7 +61,52 @@ body {
         border-radius: 5%;
     }
 
-    
+}
+
+/* Landscape smartphones */
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(233, 222, 222);
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    #errorcontaint {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: auto;
+        width: auto;
+        padding: 30px;
+        margin-top: 150px;
+        border-radius: 4px;
+        text-align: center;
+        background-color: rgb(227, 198, 198);
+    }
+
+    h1 {
+        font-weight: lighter;
+        font-size: 20px;
+    }
+
+    .heading {
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        color: red;
+        font-size: 20px;
+        border: 5px solid black;
+        background-color: lightyellow;
+        padding: 10px;
+        border-radius: 2%;
+
+
+    }
 }
 
 /*Large devices only (laptops and deskops) */
@@ -76,12 +122,12 @@ body {
         font-size: 30px;
         color: rgba(69, 69, 226, 0.959);
         text-align: center;
-        font-family:  'Pacifico', cursive;
+        font-family: 'Pacifico', cursive;
         font-weight: lighter;
     }
 
     #errorcontaint {
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         height: auto;
         width: auto;
         padding: 30px;
@@ -89,7 +135,7 @@ body {
         border-radius: 4px;
         text-align: center;
         background-color: rgb(227, 198, 198);
-    }   
+    }
 
     h1 {
         font-weight: lighter;
@@ -97,15 +143,15 @@ body {
     }
 
     .heading {
-        font-family: 'IBM Plex Sans Condensed', sans-serif; 
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
         color: red;
         font-size: 20px;
         border: 5px solid black;
         background-color: lightyellow;
         padding: 10px;
         border-radius: 2%;
-    
-        
+
+
     }
 
 }

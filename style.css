@@ -1,5 +1,5 @@
 * {
-    margin:0px;
+    margin: 0px;
 }
 
 a {
@@ -12,26 +12,27 @@ a:hover {
 
 a:visited {
     text-decoration: none;
-    }
+}
 
 body {
     width: auto;
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media   (min-width: 600px) and (max-width: 1199px) {
+@media (min-width: 600px) and (max-width: 1199px) {
     header {
         background-color: rgb(233, 222, 222);
         height: 100px;
         width: 100%;
         padding: 9px;
         position: fixed;
-        }
+    }
 
     #brandname {
         font-size: 60px;
         color: rgba(69, 69, 226, 0.959);
         text-align: center;
-        font-family:  'Pacifico', cursive;
+        font-family: 'Pacifico', cursive;
         font-weight: lighter;
     }
 
@@ -52,18 +53,18 @@ body {
     }
 
     #aboutus {
-       text-align: center;
+        text-align: center;
     }
 
 
-    
+
     #restauranttoptions {
-        background-color:rgb(187, 215, 233);
+        background-color: rgb(187, 215, 233);
         padding: 20px;
         height: auto;
         width: auto;
         font-size: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     ul {
@@ -76,12 +77,12 @@ body {
     }
 
     #eventcategories {
-        background-color:rgb(187, 215, 233);
+        background-color: rgb(187, 215, 233);
         padding: 20px;
         height: auto;
         width: auto;
         font-size: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 
@@ -92,7 +93,7 @@ body {
         padding: 20px;
         font-size: 20px;
         margin-top: 60px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     h1 {
@@ -103,23 +104,23 @@ body {
         font-size: 20px;
     }
 
-    #das{
-        background-color:rgb(187, 215, 233);
+    #das {
+        background-color: rgb(187, 215, 233);
         padding: 20px;
         height: auto;
         width: auto;
         font-size: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-top: 60px;
     }
 
     .h1li {
-        background-color:rgb(187, 215, 233);
+        background-color: rgb(187, 215, 233);
         padding: 20px;
         height: auto;
         width: auto;
         font-size: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     #grid {
@@ -128,13 +129,13 @@ body {
         grid-template-columns: auto auto auto;
         background-color: rgb(187, 215, 233);
         margin: 10px;
-      }
-      
+    }
+
     #grid-item {
         text-align: center;
         padding: 20px;
         font-size: 20px;
-        }
+    }
 
     footer {
         margin-top: auto;
@@ -147,7 +148,137 @@ body {
         color: darkblue;
         display: grid;
     }
-}  
+}
+
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(233, 222, 222);
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    #aboutusheading {
+        text-align: center;
+    }
+
+    main {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: auto;
+        font-size: 18px;
+        width: auto;
+        padding: 20px;
+        margin-top: 55px;
+        border-radius: 2px;
+        background-color: rgb(187, 215, 233);
+    }
+
+    #aboutus {
+        text-align: center;
+    }
+
+    #eventcategories {
+        background-color: rgb(187, 215, 233);
+        padding: 12px;
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .h1li {
+        background-color: rgb(187, 215, 233);
+        padding: 12px;
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+    #restauranttoptions {
+        background-color: rgb(187, 215, 233);
+        padding: 12px;
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    ul {
+        margin: 10px;
+        
+    }
+
+    li {
+        margin: 10px;
+        
+    }
+
+    #popularlocls {
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 12px;
+        font-size: 20px;
+        margin-top: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #das {
+        background-color: rgb(187, 215, 233);
+        padding: 12px;
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        margin-top: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+    #grid {
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(187, 215, 233);
+        margin: 12px;
+    }
+
+    #grid-item {
+        text-align: center;
+        padding: 8px;
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 20px;
+        
+    }
+
+    footer {
+        margin-top: auto;
+        font-size: 20px;
+        height: auto;
+        width: auto;
+        background-color: rgb(209, 220, 228);
+        font-family: 'Courier New', Courier, monospace;
+        color: darkblue;
+    }
+
+
+}
 
 /*Large devices only (laptops and deskops) */
 @media (min-width: 1200px) {
@@ -162,7 +293,7 @@ body {
         font-size: 30px;
         color: rgba(69, 69, 226, 0.959);
         text-align: center;
-        font-family:  'Pacifico', cursive;
+        font-family: 'Pacifico', cursive;
         font-weight: lighter;
     }
 
@@ -182,35 +313,35 @@ body {
     }
 
     #aboutus {
-       text-align: center;
+        text-align: center;
     }
 
     #eventcategories {
-        background-color:rgb(187, 215, 233);
+        background-color: rgb(187, 215, 233);
         padding: 12px;
         height: auto;
         width: auto;
         font-size: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     .h1li {
-        background-color:rgb(187, 215, 233);
+        background-color: rgb(187, 215, 233);
         padding: 12px;
         height: auto;
         width: auto;
         font-size: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
-    
+
     #restauranttoptions {
-        background-color:rgb(187, 215, 233);
+        background-color: rgb(187, 215, 233);
         padding: 12px;
         height: auto;
         width: auto;
         font-size: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     ul {
@@ -230,21 +361,21 @@ body {
         padding: 12px;
         font-size: 20px;
         margin-top: 20px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
 
     h1 {
         font-size: 20px;
     }
 
-    #das{
-        background-color:rgb(187, 215, 233);
+    #das {
+        background-color: rgb(187, 215, 233);
         padding: 12px;
         height: auto;
         width: auto;
         font-size: 20px;
         margin-top: 30px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 
@@ -254,13 +385,13 @@ body {
         grid-template-columns: auto auto auto;
         background-color: rgb(187, 215, 233);
         margin: 12px;
-      }
-      
+    }
+
     #grid-item {
         text-align: center;
         padding: 8px;
         font-size: 20px;
-      }
+    }
 
     footer {
         margin-top: auto;
@@ -273,5 +404,5 @@ body {
         color: darkblue;
     }
 
-    
+
 }
