@@ -111,7 +111,7 @@ body {
         width: auto;
         font-size: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-top: 60px;
+        margin-top: 10px;
     }
 
     .h1li {
@@ -139,14 +139,13 @@ body {
 
     footer {
         margin-top: auto;
-        font-size: 4px;
+        font-size: 18px;
         height: auto;
         width: auto;
-        background-color: rgb(187, 215, 233);
+        background-color: rgb(233, 222, 222);
         padding: 28px;
         font-family: monospace;
-        color: darkblue;
-        display: grid;
+        line-height: 12px;
     }
 }
 
@@ -176,7 +175,7 @@ body {
         font-size: 18px;
         width: auto;
         padding: 20px;
-        margin-top: 55px;
+        margin-top: 75px;
         border-radius: 2px;
         background-color: rgb(187, 215, 233);
     }
@@ -215,12 +214,12 @@ body {
 
     ul {
         margin: 10px;
-        
+
     }
 
     li {
         margin: 10px;
-        
+        font-size: 22px;
     }
 
     #popularlocls {
@@ -243,7 +242,7 @@ body {
         height: auto;
         width: auto;
         font-size: 20px;
-        margin-top: 30px;
+        margin-top: 5px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
@@ -264,17 +263,16 @@ body {
 
     h5 {
         font-size: 20px;
-        
     }
 
     footer {
         margin-top: auto;
         font-size: 20px;
-        height: auto;
+        height:auto;
         width: auto;
-        background-color: rgb(209, 220, 228);
+        background-color: rgb(233, 222, 222);
         font-family: 'Courier New', Courier, monospace;
-        color: darkblue;
+        line-height: 10px;
     }
 
 
@@ -374,7 +372,6 @@ body {
         height: auto;
         width: auto;
         font-size: 20px;
-        margin-top: 30px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
@@ -394,14 +391,14 @@ body {
     }
 
     footer {
-        margin-top: auto;
-        font-size: 9px;
-        height: auto;
         width: auto;
-        background-color: rgb(209, 220, 228);
+        height: auto;
+        background-color: rgb(233, 222, 222);
+        font-size: 23px;
         padding: 12px;
-        font-family: 'Courier New', Courier, monospace;
-        color: darkblue;
+        line-height: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
     }
 
 
