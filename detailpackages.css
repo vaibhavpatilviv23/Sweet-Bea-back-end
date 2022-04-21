@@ -63,6 +63,13 @@ body {
         font-size: 20px;
     }
 
+    img {
+        height: 550px;
+        width: 650px;
+        border-radius: 5%;
+        border: 6px solid black;
+    }
+
 }
 
 /* Landscape smartphones */
