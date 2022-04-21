@@ -63,6 +63,13 @@ body {
         font-size: 30px;
     }
 
+    img {
+        height: 650px;
+        width: 750px;
+        border-radius: 5%;
+        border: 6px solid black;
+    }
+
 }
 
 /* Lanscape smartphones */
@@ -119,6 +126,13 @@ body {
     p {
         text-align: center;
     }
+
+    img {
+        height: 200px;
+        width: 250px;
+        border-radius: 5%;
+        border: 2px solid black;
+    }
 }
 
 /* iPad in portrait and landscape mode */
@@ -169,6 +183,13 @@ body {
         margin:10px;
         
     }
+
+    img {
+        height: 200px;
+        width: 250px;
+        border-radius: 5%;
+        border: 2px solid black;
+    }
 }
 
 /*Large devices only (laptops and deskops) **/
@@ -217,6 +238,13 @@ body {
 
     ul {
         margin:10px;
-        width: fit-content;
+        
+    }
+
+    img {
+        height: 200px;
+        width: 250px;
+        border-radius: 5%;
+        border: 2px solid black;
     }
 }
