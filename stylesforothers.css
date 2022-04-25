@@ -33,7 +33,6 @@ a:visited {
         font-weight: lighter;
     }
 
-    
 
     #aboutusheading {
         text-align: center;
@@ -76,6 +75,11 @@ a:visited {
     h1 {
         font-weight: lighter;
         font-family:serif;
+    }
+
+    .brandlogo {
+        height: 500px;
+        width: 500px;
     }
 
 }
@@ -144,7 +148,14 @@ a:visited {
         font-family:serif;
     }
 
+    .brandlogo {
+        height: 350px;
+        width: 350px;
+        border-radius: 40px;
+        margin-bottom: 20px;
     }
+
+}
 
     /* iPad in portrait and landscape mode */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
@@ -210,6 +221,11 @@ a:visited {
         font-weight: lighter;
         font-family:serif;
     }
+
+    .brandlogo {
+        height: 350px;
+        width: 350px;
+    }
 }
 
 /* large devices only (laptops and desktops) */
@@ -241,7 +257,6 @@ a:visited {
         background-color: rgb(187, 215, 233);
         font-family:Arial, Helvetica, sans-serif;
     }
-
 
     h1 {
         font-size: 20px;
@@ -275,6 +290,11 @@ a:visited {
     h1 {
         font-weight: lighter;
         font-family:serif;
+    }
+
+    .brandlogo {
+        height: 350px;
+        width: 350px;
     }
 }
 
