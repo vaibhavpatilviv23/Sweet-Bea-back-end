@@ -44,6 +44,7 @@ body {
         background-color: rgb(187, 215, 233);
         padding: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 100px;
     }
 
     h1 {
@@ -70,8 +71,6 @@ body {
         border-radius: 5%;
         border: 6px solid black;
     }
-
-    
 
 }
 
