@@ -111,7 +111,7 @@ body {
         width: auto;
         font-size: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-top: 10px;
+        margin-top: 7.5px;
     }
 
     .h1li {
@@ -276,6 +276,131 @@ body {
     }
 
 
+}
+
+/* iPad in portrait and landscape mode */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px)  {
+        header {
+            width: 100%;
+            height: auto;
+            background-color: rgb(233, 222, 222);
+            position: fixed;
+        }
+    
+        #brandname {
+            font-size: 30px;
+            color: rgba(69, 69, 226, 0.959);
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-weight: lighter;
+        }
+    
+        #aboutusheading {
+            text-align: center;
+        }
+    
+        main {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: auto;
+            font-size: 18px;
+            width: auto;
+            padding: 40px;
+            margin-top: 70px;
+            border-radius: 2px;
+            background-color: rgb(187, 215, 233);
+        }
+    
+        #aboutus {
+            text-align: center;
+        }
+    
+        #eventcategories {
+            background-color: rgb(187, 215, 233);
+            padding: 12px;
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+        .h1li {
+            background-color: rgb(187, 215, 233);
+            padding: 12px;
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+    
+        #restauranttoptions {
+            background-color: rgb(187, 215, 233);
+            padding: 12px;
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+        ul {
+            margin: 10px;
+            width: fit-content;
+        }
+    
+        li {
+            margin: 10px;
+            width: fit-content;
+        }
+    
+        #popularlocls {
+            height: auto;
+            width: auto;
+            background-color: rgb(187, 215, 233);
+            padding: 12px;
+            font-size: 20px;
+            margin-top: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+        h1 {
+            font-size: 20px;
+        }
+    
+        #das {
+            background-color: rgb(187, 215, 233);
+            padding: 12px;
+            height: auto;
+            width: auto;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+    
+        #grid {
+            display: grid;
+            column-gap: 50px;
+            grid-template-columns: auto auto auto;
+            background-color: rgb(187, 215, 233);
+            margin: 12px;
+        }
+    
+        #grid-item {
+            text-align: center;
+            padding: 8px;
+            font-size: 20px;
+        }
+    
+        footer {
+            width: auto;
+            height: auto;
+            background-color: rgb(233, 222, 222);
+            font-size: 23px;
+            padding: 12px;
+            line-height: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+    
 }
 
 /*Large devices only (laptops and deskops) */
