@@ -4,6 +4,7 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
@@ -12,6 +13,7 @@ a:hover {
 
 a:visited {
     text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -149,6 +151,7 @@ body {
     }
 }
 
+/*Landscape smartphones*/
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
     header {
         width: 100%;

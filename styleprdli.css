@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: auto;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 1199px) {
+    header {
+        background-color: rgb(233, 222, 222);
+        height: 100px;
+        width: 100%;
+        padding: 9px;
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 60px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    h2 {
+        font-size: 55px;
+    }
+
+    section {
+        margin-top: 200px;
+        background-color: rgb(187, 215, 233);
+        padding: 20px;
+        height: auto;
+        width: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 100px;
+    }
+
+    img {
+        height: 650px;
+        width: 750px;
+        border-radius: 5%;
+        border: 6px solid black;
+    }
+
+    ul {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        margin: 15px 0px 20px 0px;
+    }
+}
+
+/*Landscape smartphones*/
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {}
+
+/* iPad in portrait and landscape mode */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {}
+
+/*Large devices only (laptops and deskops) */
+@media (min-width: 1200px) {}
